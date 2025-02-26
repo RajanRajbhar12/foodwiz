@@ -1,0 +1,254 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Foodwiz
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/style.css">
+ 
+
+ </head>
+ <body class="bg-white">
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div class="flex justify-between h-16">
+              <div class="flex">
+                 <button id="menu-toggle" class="sm:hidden text-black hover:text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                 </button>
+                 <div class="hidden sm:flex sm:space-x-8">
+                    <a class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#about">
+                       About
+                    </a>
+                    
+                    <a class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#test">
+                       Testimonials
+                    </a>
+                    <a class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="#contact">
+                       Contacts
+                    </a>
+                    <a class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" href="about.html">
+                        AI Recipe
+                     </a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </nav>
+     
+     <!-- Sidebar -->
+     <div id="sidebar" class="fixed inset-0 z-50 bg-black bg-opacity-90 text-black w-64 transform -translate-x-full transition-transform duration-300">
+        <div class="p-4">
+           <button id="close-menu" class="text-black">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+           </button>
+        </div>
+        <nav class="mt-8">
+           <a href="#about" class="block py-2 px-4 hover:bg-gray-700">About</a>
+           <a href="#contact" class="block py-2 px-4 hover:bg-gray-700">Services</a>
+           <a href="#test" class="block py-2 px-4 hover:bg-gray-700">Testimonials</a>
+           <a href="about.html" class="block py-2 px-4 hover:bg-gray-700">AI Receipe</a>
+        </nav>
+     </div>
+     
+     <script>
+       
+     </script>
+     
+  <div class="flex flex-col md:flex-row fade-in"  >
+    <div class="slider">
+        <div class="slides">
+          <!-- First Image -->
+          <div class="slide">
+            <img src="img1.jpg" alt="Image 1">
+          </div>
+          <!-- Second Image -->
+          <div class="slide">
+            <img src="img2.jpg" alt="Image 2">
+          </div>
+        </div>
+      </div>
+   <div class="md:w-1/2 flex items-center justify-center p-8">
+    <div class="text-center">
+     <h1 class="text-5xl font-bold mb-4">
+      FOODWIZ
+     </h1>
+     <p class="text-lg mb-6">
+        Unlock the potential of AI to create personalized recipes that cater to your preferences, turning everyday ingredients into delicious culinary creations.     </p>
+    <a href="/about.html">
+        <button class="bg-gray-800 text-white px-6 py-2 rounded-full ">
+      GET STARTED
+     </button>
+    </a>
+    </div>
+   </div>
+  </div>
+  <main id="about" >
+    <section class="relative">
+     <img alt="A background image with spices and cooking ingredients" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/bqZr6YKplwqEYkVxcTeB1k4izWNlnVgkoMSv80l1nX0.jpg" width="1920"/>
+     <div class="absolute inset-0 bg-black bg-opacity-100 flex items-center justify-center">
+      <div class="text-center text-white">
+       <h1 class="text-3xl md:text-4xl font-bold">
+        Discover more about FOODWIZ
+       </h1>
+       <p class="mt-2 text-sm md:text-base">
+        Explore our mission, vision, and dedication to enhancing your cooking experience.
+       </p>
+      </div>
+     </div>
+    </section>
+    <section class="bg-black text-white py-12 ">
+     <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+       <div>
+        <h2 class="text-xl font-bold mb-4">
+         Our story: Your kitchen, our inspiration
+        </h2>
+        <p class="text-sm md:text-base">
+         Join us at FOODWIZ, where we become your trusted companion in the kitchen. Our journey is rooted in a passion for food and a commitment to making cooking enjoyable and accessible, transforming everyday ingredients into extraordinary meals.
+        </p>
+       </div>
+       <div>
+        <h2 class="text-xl font-bold mb-4">
+         Our mission: Crafting delightful meals with AI
+        </h2>
+        <p class="text-sm md:text-base">
+         At the core of FOODWIZ is a talented team devoted to revolutionizing your cooking experience. We aim to provide innovative, AI-driven recipes tailored to your pantry, empowering you to create delicious meals with ease and creativity.
+        </p>
+       </div>
+      </div>
+     </div>
+    </section>
+   </main>
+   <div class="container mx-auto mt-8 px-4 fade-in">
+    <div class="flex flex-col md:flex-row items-center">
+     <div class="md:w-1/2 p-4">
+      <h1 class="text-3xl font-bold mb-4">
+       Ingredient selection
+      </h1>
+      <p class="text-gray-700 mb-6">
+       Select from the ingredients you have on hand, and let us do the rest. Our platform makes it easy to find recipes that match your choices, ensuring you never waste food again.
+      </p>
+      <button class="bg-gray-800 text-white px-4 py-2 rounded shadow">
+       STEP 1
+      </button>
+     </div>
+     <div class="md:w-1/2 p-4 fade-in">
+      <img alt="Open cookbook with fresh greens and various dishes displayed" height="400" src="https://storage.googleapis.com/a1aa/image/3_ws44Y3dS2VMiun4iKfAwJ9gQt5POWigd5zjAjEvPc.jpg" width="600"/>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="container mx-auto px-4 py-8 flex flex-col-reverse md:flex-row items-center fade-in">
+    <div class="md:w-1/2">
+     <img alt="A delicious plate of food with various ingredients including tomatoes, onions, and herbs" class="rounded-lg shadow-md" height="400" src="https://storage.googleapis.com/a1aa/image/lgvQul2N-J-Pp97vYNY8uMubKCpBmwaVSHROJe5pxCc.jpg" width="600"/>
+    </div>
+    <div class="md:w-1/2 md:pl-8 p-4 mb-4 md:mt-0">
+     <h1 class="text-3xl font-bold text-gray-800">
+      Recipe generation
+     </h1>
+     <p class="mt-4 text-gray-600">
+      Experience the magic of AI as we generate personalized recipes in seconds. Our technology curates meal options that cater to your tastes, dietary preferences, and cooking style.
+     </p>
+     <button class="mt-6 px-4 py-2 bg-gray-800 text-white rounded-lg shadow-md hover:bg-gray-700">
+      STEP 2
+     </button>
+    </div>
+   </div>
+   <div class="container mx-auto mt-8 flex flex-col md:flex-row items-center fade-in">
+    <div class="md:w-1/2 p-8 ">
+     <h1 class="text-3xl font-bold mb-4">
+      Cooking made easy
+     </h1>
+     <p class="text-gray-700 mb-6">
+      Enjoy a seamless cooking experience with our easy-to-follow recipes. We provide step-by-step guidance, making it simple for both novice and experienced cooks to create delectable dishes.
+     </p>
+     <button class="bg-gray-800 text-white px-4 py-2 rounded shadow">
+      STEP 3
+     </button>
+    </div>
+    <div class="md:w-1/2 p-4 ">
+     <img alt="People working on laptops in a meeting room" height="200" src="https://storage.googleapis.com/a1aa/image/LPu6kApknc7BXozDeL3kFX30OBbsNSsqhMB63tFA7sw.jpg" width="600"/>
+    </div>
+   </div>
+   <main id="test"><section class="bg-black text-white py-16 fade-in">
+    <div class="container mx-auto px-4 border-gray-300">
+        <div id="testimonial-slider" class="relative bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div class="text-4xl mb-4">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <p class="text-lg font-semibold" id="testimonial-name">John Perry</p>
+            <p class="mt-4" id="testimonial-text">
+                FOODWIZ has transformed my cooking routine. The personalized recipes based on my ingredients have made meal prep a breeze, and I've discovered new favorites I never would have tried otherwise!
+            </p>
+        </div>
+        <div class="flex justify-center mt-8 space-x-2">
+            <span class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer" onclick="showTestimonial(0)"></span>
+            <span class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer" onclick="showTestimonial(1)"></span>
+            <span class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer" onclick="showTestimonial(2)"></span>
+            <span class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer" onclick="showTestimonial(3)"></span>
+            <span class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer" onclick="showTestimonial(4)"></span>
+        </div>
+    </div>
+</section>
+</main>
+<main id="contact " class="fade-in">
+<div class="text-center mb-8 p-8">
+    <h1 class="text-3xl font-bold">Get in touch with us</h1>
+</div>
+<div class="flex flex-col md:flex-row justify-between p-4">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+        <div class="mb-4">
+            <h2 class="text-xl font-bold">Email</h2>
+            <p>info@youraddress.com</p>
+        </div>
+        <div class="mb-4">
+            <h2 class="text-xl font-bold">Phone</h2>
+            <p>900-448-9212</p>
+        </div>
+        <div class="mb-4">
+            <h2 class="text-xl font-bold">Address</h2>
+            <p>Mumbai India</p>
+        </div>
+        <div class="border-t-2 border-gray-300 my-4 flex justify-center">
+            <i class="fas fa-star text-2xl text-gray-600"></i>
+        </div>
+        <p>We’d love to hear your feedback or answer any questions you may have.</p>
+    </div>
+    <div class="md:w-1/2 p-4">
+        <form class="space-y-4">
+            <div>
+                <input type="text" placeholder="Name" class="w-full p-2 border border-gray-300 rounded">
+            </div>
+            <div>
+                <input type="email" placeholder="Email" class="w-full p-2 border border-gray-300 rounded">
+            </div>
+            <div>
+                <textarea placeholder="Type your message here..." class="w-full p-2 border border-gray-300 rounded h-32"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="w-full p-2 bg-gray-600 text-white rounded">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</main>
+<script src="/script.js"></script>
+
+
+  </body>
+ </html>
+ 
+ 
+
+
